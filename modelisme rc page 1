@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modélisme RC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333; /* Couleur du texte par défaut */
+            transition: background-color 0.5s;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s;
+        }
+        .card:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .card h2 {
+            color: #007bff; /* Couleur bleue pour les titres */
+            transition: color 0.5s;
+        }
+        .card p {
+            color: #666;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            transition: background-color 0.5s, color 0.5s;
+        }
+        h1 {
+            text-align: center;
+            color: #007bff; /* Couleur bleue pour le titre principal */
+            transition: color 0.5s;
+        }
+        .model h2 {
+            margin-top: 10px;
+            font-size: 20px;
+            color: #007bff; /* Couleur bleue pour les titres de modèle */
+            transition: color 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Modélisme RC</h1>
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#voitures">Voitures RC</a>
+        <a href="#avions">Avions RC</a>
+        <a href="#bateaux">Bateaux RC</a>
+    </nav>
+    <section id="accueil">
+        <div class="container">
+            <div class="card">
+                <h2>Bienvenue dans le monde du modélisme RC</h2>
+                <p>Explorez notre sélection de voitures, avions et bateaux radiocommandés.Aujourd'hui je vous embarque avec moi dans le monde du rc. On peut voir beaucoup de type de vehicule radiocommandées mais je vais faire pas tous le tour car c'est très vaste mais dans le principal du rc ce sont les voitures qui sont le plus connue car pour les enfant ce sont des jouets. MAis il y a du rc bien plus évoluée que des jouets qui fait fureur pour plein de personne qui en font des competition.</p>
+            </div>
+        </div>
+    </section>
+    <section id="voitures">
+        <div class="container">
+            <div class="card">
+                <h2>Voitures RC</h2>
+                <p>Les voitures radiocommandées offrent une grande variété de modèles, des buggys tout-terrain aux voitures de course rapides. Elles sont idéales pour les courses et le pilotage sur différents types de terrains.</p>
+				<p><a href="https://fr.wikipedia.org/wiki/Mod%C3%A9lisme_automobile"> pour plus d information cliquer ici
+				</a></p>
+				<img src="voiture rc .jpg">
+				<img src="buggy rc .jpg">
+				<video width="320" height="240" controls>
+				<source src="Championnat de France TT 18 Thermique des 25 et 26-09-2021 au MRCN.mp4" type="video/mp4">
+				
+				</video>
+			</div>
+        </div>
+    </section>
+    <section id="avions">
+        <div class="container">
+            <div class="card">
+                <h2>Avions RC</h2>
+                <p>Les avions radiocommandés sont disponibles dans de nombreux styles, des planeurs tranquilles aux jets de haute performance. Ils offrent une expérience de vol réaliste et sont parfaits pour les amateurs d'aéromodélisme.</p>
+				<p><a href="https://fr.wikipedia.org/wiki/Avion_radiocommand%C3%A9"> pour plus d information cliquer ici
+				</a></p>
+				<img src="avion rc .jpg">
+				<video width="320" height="240" controls>
+				<source src="Avion RC thermique.mp4">
+				</video>
+			</div>
+        </div>
+    </section>
+    <section id="bateaux">
+        <div class="container">
+            <div class="card">
+                <h2>Bateaux RC</h2>
+                <p>Les bateaux radiocommandés permettent de naviguer sur l'eau avec précision et contrôle. Des voiliers aux bateaux de course, ils offrent une expérience de navigation immersive pour les amateurs de modélisme naval.</p>
+				<p><a href="https://fr.wikipedia.org/wiki/Bateau_radiocommand%C3%A9"> pour plus d information cliquer ici
+				</a></p>
+				<img src="bateau rc .jpg">
+				<video width="320" height="240" controls>
+				<source src="bateau RC thermique.mp4">
+				</video>
+				<p><a href="page2 modelisme rc 1.html"> page 2 cliquer dessus 
+				</a></p>
+			</div>
+        </div>
+    </section>
+</body>
+</html>
